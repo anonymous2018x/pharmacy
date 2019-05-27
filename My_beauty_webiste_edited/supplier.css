@@ -1,0 +1,174 @@
+@charset "utf-8";
+body{
+    background-image: url('../468960995.jpg');
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+ul {
+        display:block;
+        background:none;
+        list-style:none;
+        margin:0;
+        padding:12px 10px;
+        height:21px;
+    }
+    ul li {
+        float:left;
+        font:13px helvetica;
+        font-weight:bold;
+        margin:3px 0;
+    }
+    ul li a {
+        color:#FFF;
+        text-decoration:none;
+        padding:6px 15px;
+        cursor:pointer;
+    }
+    ul li a:hover {
+        background:green;
+        text-decoration:none;
+        cursor:pointer;
+        width: auto;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+        
+.form-style-3{
+    max-width: 500px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-3 label{
+    display:block;
+    margin-bottom: 10px;
+}
+.form-style-3 label > span{
+    float: left;
+    width: 100px;
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px #fff;
+}
+.form-style-3 fieldset{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 0px 0px 10px 0px;
+    border: 1px solid #FFD2D2;
+    padding: 20px;
+    background: white;
+    box-shadow: inset 0px 0px 15px green;
+    -moz-box-shadow: inset 0px 0px 15px green;
+    -webkit-box-shadow: inset 0px 0px 15px green;
+}
+.form-style-3 fieldset legend{
+    color: green;
+    border-top: 1px solid #FFD2D2;
+    border-left: 1px solid #FFD2D2;
+    border-right: 1px solid #FFD2D2;
+    border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    background: #FFF4F4;
+    padding: 0px 8px 3px 8px;
+    box-shadow: -0px -1px 2px green;
+    -moz-box-shadow:-0px -1px 2px #F1F1F1;
+    -webkit-box-shadow:-0px -1px 2px #F1F1F1;
+    font-weight: normal;
+    font-size: 25px;
+}
+.form-style-3 textarea{
+    width:600px;
+    height:200px;
+}
+.form-style-3 input[type=text],
+.form-style-3 input[type=date],
+.form-style-3 input[type=datetime],
+.form-style-3 input[type=number],
+.form-style-3 input[type=search],
+.form-style-3 input[type=time],
+.form-style-3 input[type=url],
+.form-style-3 input[type=email],
+.form-style-3 select, 
+.form-style-3 textarea{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid #FFC2DC;
+    outline: none;
+    color: green;
+    padding: 5px 8px 5px 8px;
+    box-shadow: inset 1px 1px 4px grey;
+    -moz-box-shadow: inset 1px 1px 4px grey;
+    -webkit-box-shadow: inset 1px 1px 4px grey;
+    background: white;
+    width:50%;
+}
+.form-style-3  input[type=submit],
+.form-style-3  input[type=button]{
+    background: green;
+    border: 1px solid #C94A81;
+    padding: 5px 15px 5px 15px;
+    color: #FFCBE2;
+    box-shadow: inset -1px -1px 3px green;
+    -moz-box-shadow: inset -1px -1px 3px green;
+    -webkit-box-shadow: inset -1px -1px 3px green;
+    border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;    
+    font-weight: bold;
+}
+.required{
+    color:red;
+    font-weight:normal;
+}
+
+.content
+{
+    width: 1200px;
+    height:600px;
+    background:rgba(0,92,13,0.5);
+    color:black;
+    margin: auto;
+     
+}
+.topbar{
+    width: 100%;    
+    height: 100px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;  
+    background-color:#345D1A;
+    float: left;
+    text-decoration: none;
+    font-size: 100px;
+}
+
+#content{
+  display:none;
+}
+#content.show{
+  display:block; /* P.S: Use `!important` if missing `#content` (selector specificity). */
+}
+*{margin:0px; padding:0px; font-family:Helvetica, Arial, sans-serif;}
+.tableInfo {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.thStyle, .tdStyle {
+    text-align: left;
+    padding: 8px;
+}
+
+.trStyle:nth-child(even){background-color: #66ff66}
+/* CSS Document */
+.tableContainer{
+}
